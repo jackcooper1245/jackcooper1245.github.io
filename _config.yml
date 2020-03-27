@@ -1,11 +1,11 @@
 # Site settings
 author: Jack Cooper
-title: 
+title: From Zero to Full Stack Hero!
 header-img: img/home-bg.png
 email: jackcooper1245@gmail.com
 copyright_name: Jack Cooper
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My progress through Flat Iron's Full Stack course!
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jackcooper1245
