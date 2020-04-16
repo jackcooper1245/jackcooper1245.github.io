@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A few tips for getting started with Ruby!"
-date:       2020-04-16 11:44:52 +0000
+date:       2020-04-16 07:44:53 -0400
 permalink:  a_few_tips_for_getting_started_with_ruby
 ---
 
