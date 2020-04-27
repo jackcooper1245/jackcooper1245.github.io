@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "The Music Library CLI - What I picked up and what I learned about myself."
-date:       2020-04-27 13:32:44 +0000
+title:      "The Music Library CLI - What I picked up what I thought was really  cool!"
+date:       2020-04-27 09:32:45 -0400
 permalink:  the_music_library_cli_-_what_i_picked_up_and_what_i_learned_about_myself
 ---
 
