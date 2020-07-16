@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "FaveFintechs! My Sinatra Project."
-date:       2020-07-16 21:12:11 +0000
+date:       2020-07-16 17:12:12 -0400
 permalink:  favefintechs_my_sinatra_project
 ---
 
