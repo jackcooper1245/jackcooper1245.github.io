@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Algorithms & (allieviating) your blues!"
-date:       2020-11-09 14:55:19 +0000
+date:       2020-11-09 09:55:20 -0500
 permalink:  algorithms_and_allieviating_your_blues
 ---
 
@@ -10,7 +10,7 @@ Today I want to write about some new concepts I've been learning. I thought writ
 
 <iframe src="https://giphy.com/embed/5dYeglPmPC5lL7xYhs" width="480" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uafairbanks-math-algorithms-you-cant-handle-5dYeglPmPC5lL7xYhs">via GIPHY</a></p>
 
-I've got an interview coming up this week and everywhere I look it I'm being advised that they might ask me about algorithms. Having before these past couple of weeks never considered algorithms, I was a bit nervous. Just hearing the word gave me a serious case of [imposter syndrome](https://hbr.org/2008/05/overcoming-imposter-syndrome#:~:text=Imposter%20syndrome%20can%20be%20defined,external%20proof%20of%20their%20competence.). However, if you take the time to calm down and look at them, you'll realise they're not so bad and are usually just a complicated way of explaining methods and functions you've been using since your very first days as a developer. So lets jump in. 
+I've got an interview coming up this week and everywhere I look I'm being advised that they might ask me about algorithms. Having, before these past couple of weeks,  never considered algorithms, I was a bit nervous. Just hearing the word gave me a serious case of [imposter syndrome](https://hbr.org/2008/05/overcoming-imposter-syndrome#:~:text=Imposter%20syndrome%20can%20be%20defined,external%20proof%20of%20their%20competence.). However, if you take the time to calm down and look at them, you'll realise they're not so bad and are usually just a complicated way of explaining methods and functions you've been using since your very first days as a developer. So lets jump in. 
 
 A quick note before we do. This is going to be a series, where I will write about one algorithm per post, so keep an eye out for more in the near future!
 
@@ -68,7 +68,7 @@ function minAndRemove(array) {
  
  How're we following along so far? It can be confusing at first, but think of it like this. The function compares all of the elements against each other to find the one with the lowest value. It then removes and returns the lowest as the return value of this function. This means that when we call this function we will always be returned the lowest element of an array. 
  
- How do we use this to order an array? We have already figured out how to find the lowest element of an array, so now we can go ahead and add that to out `` sorted; `` array. Now if we could go back to that array that has had the lowest element removed and run the process again and get the next lowest and added that to the ``sorted;`` array we'd begin to get a picture of what the original unsorted variable would look like. Now we'd just need to do this for each element of the array and we'll have sorted it won't we.
+ How do we use this to order an array? We have already figured out how to find the lowest element of an array, so now we can go ahead and add that to our `` sorted; `` array. Now if we could go back to that array that has had the lowest element removed and run the process again and get the next lowest and added that to the ``sorted;`` array we'd begin to get a picture of what the new sorted array would look like. Now we'd just need to do this for each element of the array and we'll have sorted it won't we.
  
  To do this we can write another function:
  
